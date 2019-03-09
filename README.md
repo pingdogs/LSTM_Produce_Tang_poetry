@@ -1,4 +1,4 @@
-# LSTM_Produce_Tang_poetry
+# LSTM_Produce_Tang_Poetry
 
 >  穿越時空的詩人 - 用PyTorch重現李白的神經網絡
 
