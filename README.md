@@ -5,6 +5,7 @@
 本專案主要以LSTM和Seq2seq模型建立李白詩詞產生器，以過往李白 所發表之詩詞作為訓練資料，最終產生五言及七言 絕句、律詩
 
 ● seq2seq模型是以編碼(Encode)和解碼(Decode)為代表 的架構方式，seq2seq模型是根據輸入Sequence X來生成 輸出Sequence Y
+
 ● 以encode和decode為代表的seq2seq模型，encode意思 是將輸入Sequence轉化成一個固定長度的向量，decode 意思是將輸入的固定長度向量解碼成輸出Sequence。
 
 最後產生詩詞時，押韻則使用北曲新譜的韻部來做韻腳的選擇(分類詳見rhyme.json) 
